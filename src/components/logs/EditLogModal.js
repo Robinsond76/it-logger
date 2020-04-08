@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import M from 'materialize-css/dist/js/materialize.min.js';
 
-const AddLogModal = () => {
+const EditLogModal = () => {
   const [message, setMessage] = useState('');
   const [attention, setAttention] = useState(false);
   const [tech, setTech] = useState('');
@@ -20,7 +20,7 @@ const AddLogModal = () => {
   };
 
   return (
-    <div id='add-log-modal' className='modal' style={modalstyle}>
+    <div id='edit-log-modal' className='modal' style={modalstyle}>
       <div className='modal-content'>
         <h4>Enter System Log</h4>
         <div className='row'>
@@ -90,6 +90,4 @@ const modalstyle = {
   height: '75%',
 };
 
-export default AddLogModal;
-
-//NOT APPLICABLE DUE TO WAIVER IN EMERGENCY ORDER No: DEO 20-11
+export default EditLogModal;
