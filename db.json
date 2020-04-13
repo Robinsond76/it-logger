@@ -1,18 +1,18 @@
 {
   "logs": [
     {
-      "message": "Changed card in 007",
-      "attention": false,
-      "tech": "Sam Smith",
-      "date": "2020-04-09T19:05:06.378Z",
-      "id": 1
-    },
-    {
-      "message": "Hard Drive failed in workstation 002",
+      "id": 1,
+      "message": "Card in 007 stopped working (again)",
       "attention": true,
       "tech": "Sara Wilson",
-      "date": "2020-04-09T19:06:27.545Z",
-      "id": 2
+      "date": "2020-04-13T13:37:52.383Z"
+    },
+    {
+      "id": 2,
+      "message": "Hard Drive in 002 has been fixed",
+      "attention": false,
+      "tech": "Sam Smith",
+      "date": "2020-04-13T13:37:34.805Z"
     },
     {
       "message": "Workstation 1122 down",
